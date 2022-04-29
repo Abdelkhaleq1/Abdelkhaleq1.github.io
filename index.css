@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+header {
+    background-color: rgb(60, 60, 60);
+    text-align: right;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    padding: 10px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    margin-top: -20px;
+    margin-bottom: -7px;
+    color: #c7a314;
+
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Noto Nastaliq Urdu', serif;
+
+}
+
+.parts {
+    margin-left: 200px;
+    margin-right: 26px;
+}
+
+.parts a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    color: wheat;
+    font-size: 16px;
+    height: 100%;
+    width: 50px;
+    padding: 21px 0px;
+    font-weight: 500;
+    padding-left: 13px;
+    padding-right: 5px;
+    border-left: 2px solid rgb(0, 0, 0);
+    transition: 0.7s ease;
+}
+
+.parts a:hover {
+    color: #c49e09;
+    transform: scale(1.1, 1.1);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.search {
+    color: rgb(0, 0, 0);
+    height: 27px;
+    width: 200px;
+    margin-top: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 7px;
+}
+
+.search:hover {
+    color: black;
+}
+
+#search-btn {
+    font-size: 18px;
+    color: black;
+    width: px;
+    height: 1px;
+    color: rgb(28, 27, 27);
+    margin-top: 12px;
+    margin-left: 5px;
+    border-radius: 50%;
+    transition: 0.7s ease;
+}
+
+#search-btn:hover {
+    color: #c49e09;
+    transform: scale(1.1, 1.1);
+}
+
+.social-icons a {
+    color: rgba(0, 0, 0, 0.856);
+    font-size: 23px;
+    letter-spacing: 4px;
+    justify-content: center;
+    margin-top: 7px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 0.7s ease;
+}
+
+.social-icons a #face:hover {
+    color: #3b5998;
+    transform: scale(1.3, 1.3);
+}
+
+.social-icons a #insta:hover {
+    color: #c36ea9;
+    transform: scale(1.3, 1.3);
+}
+
+.social-icons a #twit:hover {
+    color: #55acee;
+    transform: scale(1.3, 1.3);
+}
+
+.social-icons a #yt:hover {
+    color: #cd201f;
+    transform: scale(1.3, 1.3);
+}
+
+.login {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 6px 13px;
+    margin-left: 40px;
+    margin-top: 2px;
+    display: inline-block;
+    background-color: #cea70a;
+    border-radius: 10px;
+    transition: 0.7s ease;
+}
+
+.login:hover {
+    background-color: #c49e09;
+    transform: scale(1.1, 1.1);
+}
+
+aside {
+    padding: 80px 2px;
+    z-index: 998;
+    width: 220px;
+    height: 100%;
+    background-color: rgb(79, 79, 79);
+    position: absolute;
+    right: 0px;
+}
+
+
+aside ul li {
+    display: block;
+    list-style: none;
+    box-sizing: border-box;
+    border-top: solid 1px rgba(26, 25, 25, 0.1);
+    border-bottom: solid 1px rgb(26, 25, 25);
+
+}
+
+aside ul li a {
+    color: white;
+    display: block;
+    padding-right: 7px;
+    text-decoration: none;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    line-height: 65px;
+
+}
+
+aside ul li a:hover {
+    color: #cea70a;
+    padding-right: 13px;
+    transform: scale(1.1, 1.1);
+}
