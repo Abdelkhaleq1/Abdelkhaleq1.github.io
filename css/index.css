@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     direction: rtl;    
+    font-family: 'Tajawal', sans-serif;
+
 }
 
 header {
@@ -22,7 +24,6 @@ header {
     margin-top: -20px ;
     margin-bottom: -7px;
     color: #c7a314;
-    
     font-size: 30px;
     font-weight: 700;
     font-family: 'Noto Nastaliq Urdu', serif;
@@ -37,7 +38,6 @@ header {
 .parts a {
     text-decoration: none;
     text-align: center;
-    font-family: 'Tajawal', sans-serif;
     color: wheat;
     font-size: 16px;
     height: 100%;
@@ -93,7 +93,7 @@ nav {
 }
 
 .social-icons a {
-    color: rgba(0, 0, 0, 0.856);
+    color: rgba(255, 255, 255, 0.856);
     font-size: 23px;
     letter-spacing: 4px;
     justify-content: center;
@@ -150,6 +150,7 @@ aside {
     background-color: rgb(79, 79, 79);
     position: absolute;
     right: 0px;
+    top: -14px;
 }
 
 
@@ -167,7 +168,6 @@ aside ul li a {
     display: block;
     padding-right: 7px;
     text-decoration: none;
-    font-family: 'Tajawal', sans-serif;
     font-size: 20px;
     font-weight: 500;
     width: 100%;
@@ -180,4 +180,514 @@ aside ul li a:hover {
     color: #cea70a;
     padding-right: 13px;
     transform: scale(1.1,1.1);
+}
+
+.matches{
+    width: 100%;
+    height: 200px;
+    background-color:rgb(113, 112, 112);
+    position: absolute;
+    top: 60px;
+    z-index: 800;
+}
+
+.matches .head {
+    position: absolute;
+    top: 30px;
+    right: 695px;
+}
+
+.matches .head a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    height: 20px;
+    color: white;
+    padding: 7px 30px;
+    border: 1px solid black;
+    margin-top: 5px;
+    background-color: rgb(26, 25, 25);
+}
+
+.matches .all-matches {
+    position: absolute;
+    left: 145px;
+    top: 27px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.matches .icon {
+    position: absolute;
+    left: 125px;
+    top: 26px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    z-index: 800;
+    padding: 1px 5px;
+    color: rgb(178, 178, 178);
+}
+
+.show{
+    position: absolute;
+    top: 59px;
+    height: 130px;
+    width: 1171px;
+    right: 290px;
+    border: 1px solid rgba(85, 85, 85, 0.8);
+}
+
+.show .back {
+    width: 34px;
+    position: absolute;
+    right: -2px;
+}
+
+.show .back button {
+    font-size: 30px;
+    height: 128px;
+    padding: 43px 8px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    /* border: 10px rgba(85, 85, 85, 0.8); */
+}
+
+.show .match-1 {
+    top: 0px;
+    position: absolute;
+    right: 34px;
+    height: 100%;
+    width: 200px;
+    z-index: 800;
+    border-left: 1px solid rgba(85, 85, 85, 0.8);
+}
+
+.show .match-1 h5 {
+    font-size: 15px;
+    color: rgb(217, 217, 217);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.show .match-1 .man-unt{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 38px;
+    right: 10px;
+}
+
+.show .match-1 .man-unt img {
+    height: 40px;
+    width: 40px;
+}
+
+.show .match-1 .man-unt .man-unt-name {
+    position: absolute;
+    right: 3px;
+    top: 35px;
+    font-size: 12px;
+    color: white;
+}
+
+.show .match-1 .score-1 {
+    letter-spacing: 8px;
+    position: absolute;
+    top: 38px;
+    right: 67px;
+    font-size: 25px;
+    color: #c7a314;
+    font-weight: 700;
+}
+
+.show .match-1 .panc-1 {
+    position: absolute;
+    top: 75px;
+    right:78px;
+    padding: 5px;
+    color: rgb(140, 140, 140);
+    font-size: 12px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 20px;
+}
+
+.show .match-1 .lever{
+    position: absolute;
+    top: 41px;
+    right: 134px;
+}
+
+.show .match-1 .lever img {
+    margin-right: 15px;
+    height: 40px;
+    width: 30px;
+}
+
+.show .match-1 .lever .lever-name {
+    position: absolute;
+    right: 13px;
+    top: 35px;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.show .match-2 {
+    top: 0px;
+    position: absolute;
+    right: 234px;
+    height: 100%;
+    width: 200px;
+    z-index: 800;
+    border-left: 1px solid rgba(85, 85, 85, 0.8);
+}
+
+.show .match-2 h5 {
+    font-size: 15px;
+    color: rgb(217, 217, 217);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.show .match-2 .man-unt{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 38px;
+    right: 10px;
+}
+
+.show .match-2 .man-unt img {
+    height: 40px;
+    width: 40px;
+}
+
+.show .match-2 .man-unt .man-unt-name {
+    position: absolute;
+    right: 3px;
+    top: 35px;
+    font-size: 12px;
+    color: white;
+}
+
+.show .match-2 .score-1 {
+    letter-spacing: 8px;
+    position: absolute;
+    top: 38px;
+    right: 67px;
+    font-size: 25px;
+    color: #c7a314;
+    font-weight: 700;
+}
+
+.show .match-2 .panc-1 {
+    position: absolute;
+    top: 75px;
+    right:78px;
+    padding: 5px;
+    color: rgb(140, 140, 140);
+    font-size: 12px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 20px;
+}
+
+.show .match-2 .lever{
+    position: absolute;
+    top: 41px;
+    right: 134px;
+}
+
+.show .match-2 .lever img {
+    margin-right: 15px;
+    height: 40px;
+    width: 30px;
+}
+
+.show .match-2 .lever .lever-name {
+    position: absolute;
+    right: 13px;
+    top: 35px;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.show .match-3 {
+    top: 0px;
+    position: absolute;
+    right: 234px;
+    height: 100%;
+    width: 200px;
+    z-index: 800;
+    border-left: 1px solid rgba(85, 85, 85, 0.8);
+}
+
+.show .match-3 h5 {
+    font-size: 15px;
+    color: rgb(217, 217, 217);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.show .match-3 .man-unt{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 38px;
+    right: 10px;
+}
+
+.show .match-3 .man-unt img {
+    height: 40px;
+    width: 40px;
+}
+
+.show .match-3 .man-unt .man-unt-name {
+    position: absolute;
+    right: 3px;
+    top: 35px;
+    font-size: 12px;
+    color: white;
+}
+
+.show .match-3 .score-1 {
+    letter-spacing: 8px;
+    position: absolute;
+    top: 38px;
+    right: 67px;
+    font-size: 25px;
+    color: #c7a314;
+    font-weight: 700;
+}
+
+.show .match-3 .panc-1 {
+    position: absolute;
+    top: 75px;
+    right:78px;
+    padding: 5px;
+    color: rgb(140, 140, 140);
+    font-size: 12px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 20px;
+}
+
+.show .match-3 .lever{
+    position: absolute;
+    top: 41px;
+    right: 134px;
+}
+
+.show .match-3 .lever img {
+    margin-right: 15px;
+    height: 40px;
+    width: 30px;
+}
+
+.show .match-3 .lever .lever-name {
+    position: absolute;
+    right: 13px;
+    top: 35px;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.show .match-4 {
+    top: 0px;
+    position: absolute;
+    right: 234px;
+    height: 100%;
+    width: 200px;
+    z-index: 800;
+    border-left: 1px solid rgba(85, 85, 85, 0.8);
+}
+
+.show .match-4 h5 {
+    font-size: 15px;
+    color: rgb(217, 217, 217);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.show .match-4 .man-unt{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 38px;
+    right: 10px;
+}
+
+.show .match-4 .man-unt img {
+    height: 40px;
+    width: 40px;
+}
+
+.show .match-4 .man-unt .man-unt-name {
+    position: absolute;
+    right: 3px;
+    top: 35px;
+    font-size: 12px;
+    color: white;
+}
+
+.show .match-4 .score-1 {
+    letter-spacing: 8px;
+    position: absolute;
+    top: 38px;
+    right: 67px;
+    font-size: 25px;
+    color: #c7a314;
+    font-weight: 700;
+}
+
+.show .match-4 .panc-1 {
+    position: absolute;
+    top: 75px;
+    right:78px;
+    padding: 5px;
+    color: rgb(140, 140, 140);
+    font-size: 12px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 20px;
+}
+
+.show .match-4 .lever{
+    position: absolute;
+    top: 41px;
+    right: 134px;
+}
+
+.show .match-4 .lever img {
+    margin-right: 15px;
+    height: 40px;
+    width: 30px;
+}
+
+.show .match-4 .lever .lever-name {
+    position: absolute;
+    right: 13px;
+    top: 35px;
+    font-size: 12px;
+    color: white;
+}
+
+.show .next {
+    width: 38px;
+    position: absolute;
+    right: 201px;
+    top: 0px;
+}
+
+.show .next button {
+    font-size: 30px;
+    padding: 43px 8px;
+    height: 128px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    /* border: 10px rgba(85, 85, 85, 0.8); */
 }
