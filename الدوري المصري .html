@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> 
+    فيديوهات الدوري المصري    
+</title>
+<link rel="stylesheet" href="css/2.css">
+
+</head>
+<body>
+
+    <center>
+        <img src="media/الدوري المصري/الدوري المصري.jpg" alt="الدوري المصري"
+        height="100px" width="200px">
+    </center>
+     <div class="super" >  
+         فيديوهات الدوري المصري
+     </div>
+
+
+<div class="all">
+
+ <div class="mainvideo">
+
+<div  class="video" > 
+<video src="media/الدوري المصري/اجمل 10 اهداف في الدوري المصري 2021.mp4"
+controls poster="media/الدوري المصري/اجمل 10 اهداف في الدوري المصري 2021.jpg">
+</video>
+
+<h3 class="title">
+ اجمل 10 اهداف في الدوري المصري 2021
+</h3>
+</div>
+</div>
+<div class="videolist">
+
+    <div class="vid active" >
+
+        <video src="media/الدوري المصري/اجمل 10 اهداف في الدوري المصري 2021.mp4"
+         controls poster="media/الدوري المصري/اخطاء الحراس في الدوري المصري.jpg">
+        </video>
+       <h3 class="title">
+     اخطاء الحراس في الدوري المصري
+        </h3>
+ </div>
+
+    <div class="vid" >
+     <video src="media/الدوري المصري/مراسم تتويج الزمالك بطلاً للدوري 2020 - 2021.mp4"
+     controls poster="media/الدوري المصري/مراسم تتويج الزمالك بطلاً للدوري 2020 - 2021.jpeg ">
+     </video>  
+    
+       <h3 class="title">
+        مراسم تتويج الزمالك بطلاً للدوري 2020 - 2021
+       </h3>
+    </div>
+     
+ <div class="vid">
+    <video src="media/الدوري المصري/اعلي 14 راتب فى الدوري المصري اكثر لاعبي الدوري المصري حصولا علي الرواتب 2021.mp4"
+    controls poster="media/الدوري المصري/اعلي 14 راتب فى الدوري المصري اكثر لاعبي الدوري المصري حصولا علي الرواتب 2021.jpg">
+    </video>
+    <h3 class="title">
+        اغلي 10 اندية في الدوري المصري 2021
+    </h3>
+ </div> 
+</div>
+    </div>
+        </center> 
+    <script>
+    let listvideo=document.querySelectorAll('.videolist');
+    let mainvideo=document.querySelector('.mainvideo video');
+    let title=document.querySelector('.mainvideo .title');
+    listvideo.forEach(Video=>{
+      Video.oneclick= ()=>{
+      listvideo.forEach(vid=>vid.classList.remove('active'));
+      Video.classList.add('active'); 
+     if(Video.classList.all('active')){
+     let src = Video.children[0].getAttribute('src')
+     mainvideo.src=src;
+     let text= Video.children[1].innerHTML;
+     title.innerHTML=text ;
+     };
+    
+    
+      };
+    
+    });
+    
+    
+    
+    </script> 
+ 
+</body>
+</html>

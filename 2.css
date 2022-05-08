@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal ;
+  }
+
+
+body
+  {
+    background-color:rgb(230, 230, 230); 
+  }
+    
+
+.super
+{
+  color: black;
+  text-align:right;
+  font-size: 35px;
+  padding: 10px;
+  margin: 10px;
+  border-color: whitesmoke ;
+  border-style: solid ;
+}
+.all
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 5px 5px ;
+}
+ .all .mainvideo
+{
+  background: #fff;
+ border-radius: 5px;
+ padding: 10px;
+}
+.all .mainvideo video{
+  width: 100%;
+  border-radius: 5px;
+}
+.all .mainvideo .title
+{
+  color: #333;
+  font-size: 23px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}  
+
+
+
+.all .videolist
+{
+ background: #fff ;
+ border-radius: 5px;
+ height: 520px;
+ overflow-y: scroll;
+
+}
+.all .videolist::-webkit-scrollbar
+{
+ width: 10px;
+}
+.all .videolist::-webkit-scrollbar-track
+{
+background-color: #ccc;
+border-radius: 5px;
+}
+.all .videolist::-webkit-scrollbar-thumb
+{
+background-color: #666;
+border-radius: 50px;
+}
+
+
+
+ .all .videolist.vid video
+{
+ width: 100px;
+ border-radius: 5px;
+}
+ .all .videolist.vid
+{
+display: flex;
+align-items: center;
+gap: 15px;
+background-color: #f7f7f7;
+border-radius: 5px;
+margin: 10px;
+padding: 10px;
+border: 1px;
+border-style: solid;
+border-color: rgba(0, 0, 0, .1);
+cursor: pointer;
+}
+.all .videolist.vid:hover
+{
+background: #eee;
+}
+.all.videolist.vid.active
+{
+background-color: blue;
+}
+.all .videolist.vid:hover.active.title
+{
+color: #fff;
+}
+.all .videolist.video.title
+{
+color: #333;
+font-size: 17px;
+}
+
+  
